@@ -112,22 +112,19 @@ pip install pandas numpy scikit-learn imbalanced-learn xgboost shap statsmodels 
 
 ## Usage
 
-1. Download `cs-training.csv` from [Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit/data) and place it in the same directory as the script.
-2. Run the script top to bottom — each section prints conclusions inline.
+1. Training data:  `cs-training.csv` downloaded from [Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit/data) - it should be in the same directory as the script.
+2. Run the script "Credit_default_final_Github_v3LOG_XGB_v3.ipynb" top to bottom — each section prints conclusions inline.
 3. SHAP summary plots and comparison charts render automatically.
-
-```bash
-python credit_default_pipeline.py
-```
 
 ---
 
 ## File Structure
 
 ```
-├── credit_default_pipeline.py   # Main pipeline script
+├── Credit_default_final_Github_v3LOG_XGB_v3.ipynb   # Main pipeline script
 ├── cs-training.csv              # Input data (download from Kaggle)
 └── README.md
+|___ Credit_default_Documentation_Post # detailed documentation 
 ```
 
 ---
